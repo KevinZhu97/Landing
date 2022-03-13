@@ -1,10 +1,173 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 210px;
+    font-size: 18px;
+}
+
+.headerimage {
+    width: 300px;
+    height: 200px;
+}
+
+.header2 {
+    display: flex;
+    padding: 80px 210px;
+    gap: 200px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+.header21 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font: 48px;
 }
 
 .websites {
     display: flex;
-    gap: 10px;
+    gap: 30px;
+}
+
+.logo {
+    color: white;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: large;
+    filter: contrast(80%)
+}
+
+.Section1 {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+p {
+    margin-top: 0;
+    color: white;
+    filter: contrast(40%)
+}
+
+
+button {
+    border-radius: 10px;
+    width: 125px;
+    padding: 10px;
+    background-color: #24a0ed;
+    font-weight: bold;
+    color: white;
+}
+
+.pic img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid blue;
+}
+
+.Section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    gap: 0px;
+    justify-content: space-evenly;
+    padding: 20px 300px;
+}
+
+.pic {
+    width: 150px;
+    text-align: center;
+    
+}
+
+
+.Section3 {
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px 300px;
+    font-size: 36px;
+    
+}
+
+.author {
+    margin-top: 0;
+    display:flex;
+    justify-content: end;
+}
+
+h6 {
+    margin-top: 0;
+}
+
+.Section4 {
+    padding: 60px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px;
+    display:flex;
+    background-color: #24a0ed;
+    padding: 40px 40px; 
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 h3 {
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+
+.box1 p {
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    filter: contrast(100)
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
 }
